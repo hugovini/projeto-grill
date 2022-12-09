@@ -39,9 +39,14 @@
 
     <main>
         <section id="intro">
+            <div id="unid">
+                <h1>Selecione a unidade mais próxima de você e faça o seu pedido</h1>
+                <div id="link-unid"><a href="#">Unidades</a></div>
+            </div>
+
             <div id="sobre">
                 <h1>Somos o Buger Grill</h1>
-                <h1>A melhor Hamburgueria da região!</h1>
+                <h2>A melhor Hamburgueria da região!</h1>
                 <div id="img">
 
                 </div>
@@ -50,30 +55,23 @@
                 </article>
                 <a href="#">Saiba Mais</a>
             </div>
-
-            <div id="unid">
-                <h1>Selecione a unidade mais próxima de você e faça o seu pedido</h1>
-                <div class="unidades">
-                    Unidade SLM
-                </div>
-                <div class="unidades">
-                    Unidade CAM
-                </div>
-            </div>
         </section>
 
         <section id="suges">
             <h1>DÚVIDAS OU SUGESTÕES!</h1>
+            <div id="risco">
+
+            </div>
             <form action="login.php" method="post" autocomplete="on">
-                <div class="campo">
+                <div class="campo-inf">
                     <input type="text" name="nome" id="inome" placeholder="Nome" required minlength="4" maxlength="30">
                 </div>
 
-                <div class="campo">
+                <div class="campo-inf">
                     <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required maxlength="30">
                 </div>
 
-                <div class="campo">
+                <div id="campo-email" class="campo-inf">
                     <input type="text" name="msg" id="imsg" placeholder="Mensagem" required minlength="10" maxlength="1000">
                 </div>
                 <input type="submit" value="Enviar">

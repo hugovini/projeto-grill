@@ -12,7 +12,8 @@ function clickMenu() {
         itens.style.display = 'none'
     }
     else{
-            itens.style.display = 'block'
+            itens.style.display = 'block';
+            burguer.style.border-bottom == '2px solid rgb(255, 255, 255)';
         }
-    
-}
+    }
+
